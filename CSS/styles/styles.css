@@ -1,0 +1,41 @@
+/* Mi primer comentario */
+:root {
+    --main_color: purple;
+    --second_color: yellow;
+  }
+  
+  .subtitulo,
+  .parrafo {
+    color: var(--main_color);
+  }
+  
+  #container {
+    background-color: red;
+  }
+  
+  .subtitulo {
+    color: aquamarine;
+  }
+  
+  ul li h2 {
+    color: cadetblue;
+  }
+  
+  #prueba {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    font-weight: 900;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    text-transform: uppercase;
+    /*espaciado de letra*/
+    letter-spacing: 10px;
+    /*espaciado de palabra*/
+    word-spacing: 20px;
+    line-height: 100px;
+  }
